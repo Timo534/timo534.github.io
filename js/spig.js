@@ -56,6 +56,9 @@ jQuery(document).ready(function ($) {
         top: $(".spig").offset().top + 300,
         left: document.body.offsetWidth - 160
     },
+    $(".spig").css({
+      display: 'none'
+    },
 	{
 	    queue: false,
 	    duration: 1000
