@@ -1,3 +1,3 @@
 
 
-##[个人学习的记录](https://qqrq.top/)
+[个人学习的记录](https://qqrq.top/)
