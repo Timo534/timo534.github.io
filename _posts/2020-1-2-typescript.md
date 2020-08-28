@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "小记"
+title: "Typescript"
 date: 2019-01-02 
 description: "积小成多"
 tag: 前端技术
