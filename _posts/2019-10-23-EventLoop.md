@@ -111,7 +111,7 @@ Event Queue中，又因为是单线程任务要一个一个执行，如果前面
 ## Promise
 关于Promise的定义和功能，大家可以戳[Promise](https://es6.ruanyifeng.com/#docs/promise)了解
 接下来进入本文的正题，除了广义的同步任务和异步任务，我们对任务有更精细的定义：  
-1、 macro-task(宏任务)：包括整体代码script，setTimeout，setInterval，setImmediate ，I/O ，UI rendering  
+1、 macro-task(宏任务)：包括整体代码script，setTimeout，setInterval，setImmediate ，I/O ，UI rendering。浏览器在完成一个宏任务后，在下一个宏任务执行开始前，会对页面进行重新渲染  
 2、 micro-task(微任务)：process.nextTick ，promise ，Object.observe ，MutationObserver我们用本文最开始的一段代码来描述一下Event Loop的过程  
 
 ```
